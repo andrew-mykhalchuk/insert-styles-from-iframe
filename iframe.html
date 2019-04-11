@@ -10,7 +10,7 @@
       var referenceNode = window.parent.document.querySelector('.target');
       var newStyleNode = document.createElement('style');
       var styleNode = referenceNode.querySelectorAll('style');
-      var styles = "body {background: #009688; font-family: sans-serif; color: #fff;}"
+      var styles = "body {background: #009688; font-family: sans-serif; color: #fff;}";
       
       referenceNode.parentNode.appendChild(newStyleNode, referenceNode).classList.add('turbo');
       window.parent.document.querySelector('.turbo').innerHTML = styles;
